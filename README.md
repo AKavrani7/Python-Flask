@@ -13,12 +13,17 @@ Some examples of how to get request data: request.form, request.args.get, reques
 
 Objective:
 api_1.py make an api which include these functions: 
-post: create a file
-get: retrieving a file
-get_by_id: accesing a file based on the source_id.
-put: upload a file
-put_by_id: upload a file on the source_id
-delete_by_id: remove the item present on the source_id
+post(create a file)
+
+get(retrieving a file)
+
+get_by_id(accesing a file based on the source_id)
+
+put(upload a file)
+
+put_by_id(upload a file on the source_id)
+
+delete_by_id(remove the item present on the source_id)
 
 api_2: call the above functions present on api_1 by using api_2
 
