@@ -28,6 +28,7 @@ delete_by_id(remove the item present on the source_id)
 api_2: call the above functions present on api_1 by using api_2
 
 finalApi: In this api we call an api which is used on a webserver.
+
 Note: While Testing the working of your api on postman do make sure you add Authentication, content-type and body.
 1. Authentication and Authorization
 Authentication: Proving correct identity
@@ -44,7 +45,9 @@ HTTP headers tell the recipient that what kind of content they're dealing with.
   "cmd":["environment","argument", "option_1", "value_option_1", "option_2", "value_option_2", "bool_value"],
   "id": "function_id"
 }
+
 example:
+
 {
 	"cmd":["python3", "index.py", "--png_path", "python-practice-app/test.png", "--bucket", "indshine-test"],
 	"id": "40ec015f-ecbf-4ab5-92be-8c8f2b98b94b"
