@@ -1,25 +1,25 @@
 # Python-Flask
 Flask is a web framework which clients make requests to.
+
 #from flask import request
 The Flask request object contains the data that the client (eg a browser) has sent to your app - ie the URL parameters, any POST data, etc.
+
 #import requests
 The requests library is for your app to make HTTP request to other sites, usually APIs. 
 It makes an outgoing request and returns the response from the external site.
 
-Note:HTTP works as a request-response protocol between a client and server. To access incoming request data, you can use the global request object.
-Flask parses incoming request data for you and gives you access to it through that global object. Internally Flask makes sure that you always get the correct data 
-for the active thread if you are in a multithreaded environment. 
+Note: HTTP works as a request-response protocol between a client and server. To access incoming request data, you can use the global request object. Flask parses incoming request data for you and gives you access to it through that global object. Internally Flask makes sure that you always get the correct data for the active thread if you are in a multithreaded environment. 
 Some examples of how to get request data: request.form, request.args.get, request.files
 
 Objective:
 api_1.py make an api which include these functions: 
-	post: create a file
-	get: retrieving a file.
-	get_by_id: accesing a file based on the source_id. 
-	put: upload a file
-	put_by_id: upload a file on the source_id
-	delete_by_id: remove the item present on the source_id
-  
+post: create a file
+get: retrieving a file
+get_by_id: accesing a file based on the source_id.
+put: upload a file
+put_by_id: upload a file on the source_id
+delete_by_id: remove the item present on the source_id
+
 api_2: call the above functions present on api_1 by using api_2
 
 finalApi: In this api we call an api which is used on a webserver.
